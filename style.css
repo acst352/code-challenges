@@ -1,0 +1,156 @@
+html {
+  background-color: #000000;
+}
+
+.container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.title {
+  margin: 10px;
+}
+
+.excercise-1 {
+  margin: 10px;
+  padding: 10px;
+
+  background-color: rgb(247, 76, 6, 1);
+}
+
+.answer-excercise-1 {
+  margin: 10px;
+  padding: 10px;
+  width: fit-content;
+  background-color: rgb(255, 255, 255);
+}
+
+.excercise-2 {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(247, 88, 10, 1);
+}
+
+.answer-excercise-2 {
+  margin: 10px;
+  padding: 10px;
+  width: fit-content;
+  background-color: rgb(255, 255, 255);
+}
+
+.excercise-3 {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(247, 101, 14, 1);
+}
+
+.answer-excercise-3 {
+  margin: 10px;
+  padding: 10px;
+  width: fit-content;
+  background-color: rgb(255, 255, 255);
+}
+
+.excercise-4 {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(248, 113, 19, 1);
+}
+
+.answer-excercise-4 {
+  margin: 10px;
+  padding: 10px;
+  width: fit-content;
+  background-color: rgb(255, 255, 255);
+}
+
+.excercise-5 {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(248, 126, 23, 1);
+}
+
+.answer-excercise-5 {
+  margin: 10px;
+  padding: 10px;
+  width: fit-content;
+  background-color: rgb(255, 255, 255);
+}
+
+.excercise-6 {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(248, 138, 27, 1);
+}
+
+.answer-excercise-6 {
+  margin: 10px;
+  padding: 10px;
+  width: fit-content;
+  background-color: rgb(255, 255, 255);
+}
+
+.excercise-7 {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(248, 151, 31, 1);
+}
+
+.answer-excercise-7 {
+  margin: 10px;
+  padding: 10px;
+  width: fit-content;
+  background-color: rgb(255, 255, 255);
+}
+
+.excercise-8 {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(249, 163, 36, 1);
+}
+
+.answer-excercise-8 {
+  margin: 10px;
+  padding: 10px;
+  width: fit-content;
+  background-color: rgb(255, 255, 255);
+}
+
+.excercise-9 {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(249, 176, 40, 1);
+}
+
+.answer-excercise-9 {
+  margin: 10px;
+  padding: 10px;
+  width: fit-content;
+  background-color: rgb(255, 255, 255);
+}
+
+.excercise-10 {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(249, 188, 44, 1);
+}
+
+.answer-excercise-10 {
+  margin: 10px;
+  padding: 10px;
+  width: fit-content;
+  background-color: rgb(255, 255, 255);
+}
+
+.excercise-11 {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(244, 190, 66);
+}
+
+.answer-excercise-11 {
+  margin: 10px;
+  padding: 10px;
+  width: fit-content;
+  background-color: rgb(255, 255, 255);
+}
