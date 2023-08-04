@@ -1,8 +1,10 @@
 const arrayay = [0, 8, 5, 3, 9, 5, 7, 6, 9, 2, 6, 1, 8, 4, 7, 5, 6, 3, 7];
 
-function reverseArray() {
-  // Reverse method mutates the original array while toReversed method referes to the original and returns an inverted copy.
-  document.write(arrayay.toReversed());
-}
+const contenedor = document.getElementById("original-array");
+const originalHTML = "Original Array = " + arrayay;
+contenedor.innerHTML = originalHTML;
 
-reverseArray();
+const contenedor2 = document.getElementById("reversed-array");
+const reversedArray = arrayay.slice().reverse();
+const newHTML = "Reversed Array = " + reversedArray;
+contenedor2.innerHTML = newHTML;
