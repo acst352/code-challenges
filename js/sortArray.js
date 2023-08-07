@@ -1,6 +1,5 @@
 const exampleArray = [42, -17, 0, "a", 3.14, "!", "b", -9, "@", 7, "#", "c", -23];
 
-
 function sortArray() {
   // Create a sorted copy of the exampleArray without modifying the original
   const sortedArray = exampleArray.slice().sort((a, b) => {
