@@ -1,8 +1,9 @@
-function rmSpaces() {
-  const string = "Este es un ejemplo de un texto con muchos espacios.";
-  let findSpaces = string.replace(/\s/g, "");
-  document.write(string + " ");
-  document.write(findSpaces);
-}
+const string = "This is an example of an string with spaces.";
+const noSpaceString = "This is an example of an string without spaces.";
 
-rmSpaces();
+const originalString = document.getElementById("originalString");
+originalString.textContent = string;
+
+const findSpaces = noSpaceString.replace(/\s/g, "");
+const modifiedString = document.getElementById("modifiedString");
+modifiedString.textContent = findSpaces;
