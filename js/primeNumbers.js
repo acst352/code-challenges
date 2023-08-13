@@ -8,5 +8,5 @@ function isPrime(num) {
   }
   return num > 1;
 }
-
-document.write(aarray.filter(isPrime)); // [2, 3, 5, 7, 11, 13]
+const printPrimeNumbers = document.getElementById("primeNumber");
+printPrimeNumbers.textContent = aarray.filter(isPrime); // [2, 3, 5, 7, 11, 13]
