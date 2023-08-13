@@ -15,7 +15,8 @@ function sortArray() {
   });
 
   // Display the sorted array
-  document.write(sortedArray);
+  return sortedArray;
 }
 
-sortArray();
+const printArray = document.getElementById("sortArray");
+printArray.textContent = sortArray();
