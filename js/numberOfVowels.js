@@ -5,4 +5,6 @@ function numberOfVowels(str) {
 }
 
 const aString = "This is an example aeiou.";
-document.write(numberOfVowels(aString));
+
+const vowels = document.getElementById("vowels");
+vowels.textContent = numberOfVowels(aString);
