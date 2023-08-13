@@ -4,5 +4,5 @@ function numberOfVowels(str) {
   return matches ? matches.length : 0;
 }
 
-const aString = "Este es un ejemplo de un texto.";
+const aString = "This is an example aeiou.";
 document.write(numberOfVowels(aString));
