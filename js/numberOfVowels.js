@@ -1,10 +1,12 @@
+const vowelsString = "This is an example aeiou.";
+
 function numberOfVowels(str) {
   const vowels = /[aeiou]/gi;
   const matches = str.match(vowels);
   return matches ? matches.length : 0;
 }
+const exampleString = document.getElementById("vowelsString");
+exampleString.textContent = vowelsString;
 
-const aString = "This is an example aeiou.";
-
-const vowels = document.getElementById("vowels");
-vowels.textContent = numberOfVowels(aString);
+const numOfVowels = document.getElementById("numOfVowels");
+numOfVowels.textContent = numberOfVowels(vowelsString);
