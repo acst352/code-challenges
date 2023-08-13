@@ -1,4 +1,6 @@
 function isDivisible(number) {
-  document.write(number % 10 === 0);
+  return number % 10 === 0;
 }
-isDivisible(10);
+
+const printAnswer = document.getElementById("isDivisible");
+printAnswer.textContent = isDivisible(10);
