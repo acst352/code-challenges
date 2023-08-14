@@ -8,5 +8,9 @@ function isPrime(num) {
   }
   return num > 1;
 }
-const printPrimeNumbers = document.getElementById("primeNumber");
+
+const printAarray = document.getElementById("array");
+printAarray.textContent = aarray;
+
+const printPrimeNumbers = document.getElementById("primeNumbers");
 printPrimeNumbers.textContent = aarray.filter(isPrime); // [2, 3, 5, 7, 11, 13]
